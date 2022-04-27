@@ -6,7 +6,7 @@
 
 **Houzz Data Parçalayıcı**
 
-![Houzz Data Parçalayıcı](.github/HouzzProject.png)
+![Houzz Data Parçalayıcı](./HouzzProject.png)
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/kadirilgin1453/)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
