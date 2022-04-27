@@ -1,0 +1,12 @@
+aiofiles==0.8.0
+aiohttp==3.8.1
+beautifulsoup4==4.11.1
+notify2==0.3.1
+parsel==1.6.0
+pyfiglet==0.8.post1
+python-dotenv==0.20.0
+pytz==2022.1
+pyuser_agent==0.1.0
+requests==2.27.1
+rich==12.2.0
+win10toast==0.9
