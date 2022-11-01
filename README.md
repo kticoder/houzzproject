@@ -14,7 +14,7 @@
 ## 🌐 Telif Hakkı ve Lisans
 
 * *Copyright (C) 2021 by* [kadirilgin1453](https://github.com/kadirilgin1453) ❤️️
-* [MIT](https://github.com/kadirilgin1453/houzzproject/blob/master/LICENSE) *Koşullarına göre lisanslanmıştır..*
+* [MIT](https://github.com/kadirilgin1453/houzzproject/blob/master/LICENSE) *Koşullarına göre lisanslanmıştır...*
 
 ## ♻️ İletişim
 
