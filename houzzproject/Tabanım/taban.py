@@ -165,14 +165,20 @@ class Amil():
     def bilgi_yazdircik(self,yazi:str) -> None:
         self.konsol.print(yazi, style="blue")
     def basarili_is(self,yazi:str) -> None:
-        self.konsol.print("✅"+yazi, style="bold green", width=70, justify="center")
+        self.konsol.print(f"✅{yazi}", style="bold green", width=70, justify="center")
     def onemli_yazdir(self,yazi:str) -> None:
         self.konsol.print(yazi, style="bold cyan")
     
     def option(self, type:str = "str", info:str = ""):
-        if type == "str" or type == "string":
-            return str(self.konsol.input(f"[red]{self.oturum}:[/][cyan]~/../{self.get_location()[-2] + '/' + self.get_location()[-1]}[/]{' [green][[/][yellow] ' + info + ' [/][green]][/] ' if info else ''}[cyan]>> "))
-        elif type == "int" or type == "integer":
-            return int(self.konsol.input(f"[red]{self.oturum}:[/][cyan]~/../{self.get_location()[-2] + '/' + self.get_location()[-1]}[/]{' [green][[/][yellow] ' + info + ' [/][green]][/] ' if info else ''}[cyan]>> "))
+        if type in {"str", "string"} or type not in ["int", "integer"]:
+            return str(
+                self.konsol.input(
+                    f"[red]{self.oturum}:[/][cyan]~/../{self.get_location()[-2]}/{self.get_location()[-1]}[/]{f' [green][[/][yellow] {info} [/][green]][/] ' if info else ''}[cyan]>> "
+                )
+            )
         else:
-            return str(self.konsol.input(f"[red]{self.oturum}:[/][cyan]~/../{self.get_location()[-2] + '/' + self.get_location()[-1]}[/]{' [green][[/][yellow] ' + info + ' [/][green]][/] ' if info else ''}[cyan]>> "))
+            return int(
+                self.konsol.input(
+                    f"[red]{self.oturum}:[/][cyan]~/../{self.get_location()[-2]}/{self.get_location()[-1]}[/]{f' [green][[/][yellow] {info} [/][green]][/] ' if info else ''}[cyan]>> "
+                )
+            )
